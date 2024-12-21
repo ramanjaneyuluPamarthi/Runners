@@ -12,8 +12,9 @@ public class Application {
 
 	public static void main(String[] args) throws Exception {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
-	//	AppRunner bean = context.getBean(AppRunner.class);
-	//	bean.run(null);
+		AppRunner bean = context.getBean(AppRunner.class);
+		bean.run(null);
+		System.out.println("Testin gfhhnhgv dcmjknhbgv");
 		
 	}
 
